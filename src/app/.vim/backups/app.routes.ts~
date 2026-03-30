@@ -1,0 +1,7 @@
+import { Routes } from '@angular/router';
+import { BottomProject } from './bottom-project/bottom-project';
+import { LeftProject } from './left-project/left-project';
+
+
+
+export const routes: Routes = [];

@@ -1,0 +1,12 @@
+ul{
+	justify-content: center;
+	display: flex;
+	flex-direction: right;
+	color: red;
+	list-style: none;
+}
+
+li{
+	margin-left: 48px;
+	
+}

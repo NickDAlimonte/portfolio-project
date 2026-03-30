@@ -1,15 +1,14 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { BottomProject } from './bottom-project/bottom-project';
 import { LeftProject } from './left-project/left-project';
+import { TopProject } from './top-project/top-project';
 import { RightProject } from './right-project/right-project';
-import { Navbar } from './navbar/navbar';
-import { BottomLeft } from './bottom-left/bottom-left';
-import { BottomRight } from './bottom-right/bottom-right';
 
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, LeftProject, RightProject, Navbar, BottomLeft, BottomRight],
+  imports: [RouterOutlet, BottomProject, LeftProject, TopProject, RightProject],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

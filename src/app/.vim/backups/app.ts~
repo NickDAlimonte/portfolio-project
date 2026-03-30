@@ -9,7 +9,7 @@ import { BottomRight } from './bottom-right/bottom-right';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, LeftProject, RightProject, Navbar, BottomLeft, BottomRight],
+  imports: [RouterOutlet, LeftProject, RightProject, Navbar],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

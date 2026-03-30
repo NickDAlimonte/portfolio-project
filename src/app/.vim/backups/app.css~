@@ -74,8 +74,9 @@
 	app-bottom-right{
 
 		border-left: 8px solid red;
+		background-image: url("/Untitled.png");
 		width: 50%;
-		background-color: green;
+		background-color: red;
 		position: fixed;
 		right: 0;
 		bottom: 0;

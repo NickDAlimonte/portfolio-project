@@ -19,10 +19,6 @@
 
 <app-navbar></app-navbar>
 
-<app-bottom-left></app-bottom-left>
-
-<app-bottom-right></app-bottom-right>
-
 <app-left-project></app-left-project>
 
 <app-right-project></app-right-project>

@@ -1,0 +1,10 @@
+ul{
+	justify-content: center;
+	display: flex;
+	flex-direction: right;
+	color: red;
+}
+
+li{
+	margin-left: 48px;
+}
