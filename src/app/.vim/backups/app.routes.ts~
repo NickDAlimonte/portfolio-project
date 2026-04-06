@@ -1,7 +1,31 @@
 import { Routes } from '@angular/router';
-import { BottomProject } from './bottom-project/bottom-project';
-import { LeftProject } from './left-project/left-project';
+import {App} from './app';
+import {Rawcanada} from './rawcanada/rawcanada';
+import {Home} from './home/home';
+import {WarcraftAddon} from './warcraft-addon/warcraft-addon';
+import {DeploymentServer} from './deployment-server/deployment-server';
+
+export const routes: Routes = [
+	{
+		path: '',
+		component: Home
+	},
+
+	{
+		path: 'rawcanada',
+		component: Rawcanada
+	},
+	{
+		path: 'addon',
+		component: WarcraftAddon
+	},
+	{
+		path: 'deployment-server',
+		component: DeploymentServer
+	},
+	{
+		path: '',
+		component: serve
 
 
-
-export const routes: Routes = [];
+];

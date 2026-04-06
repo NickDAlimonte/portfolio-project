@@ -1,0 +1,11 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-rawcanada',
+  imports: [],
+  templateUrl: './rawcanada.html',
+  styleUrl: './rawcanada.css',
+})
+export class Rawcanada {
+
+}

@@ -1,0 +1,127 @@
+
+
+
+@media (max-width: 819px){
+
+	body{
+		width: 100vw;
+		height: 100vh;
+
+	}
+
+	.centerCard{
+		place-self: center;
+		align-self: center;
+		justify-self: center;
+		background-color: red;
+		width: 80%;
+		height: 300px;
+		border-radius: 1em;
+	}
+
+	#selfPortrait{
+		margin: 20px;
+	}
+
+
+
+
+
+}
+
+
+
+@media (min-width: 820px){
+
+
+	app-left-project{
+		z-index: 1;
+		background-color: red;
+		position: fixed;
+		left: 0;
+		top: 0;
+		width: 50vw;
+		height: 50%;
+		color: white;
+		background-size: cover;
+	}
+	app-right-project{
+
+		border-left: 8px solid red;
+		z-index: 1;
+		width: 50%;
+		position: fixed;
+		right: 0;
+		top: 0;
+		height: 50%;
+		color: white;
+		background-size: cover;
+	}
+
+
+	app-bottom-right{
+
+		border-left: 8px solid red;
+		width: 50%;
+		background-color: green;
+		position: fixed;
+		right: 0;
+		bottom: 0;
+		z-index: 1;
+		height: 50%;
+		color: white;
+		background-size: cover;
+	}
+
+
+	app-bottom-left{
+
+		background-color: green;
+		width: 50%;
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		z-index: 1;
+		height: 50%;
+		color: white;
+		background-size: cover;
+	}
+
+
+	.centerCard{
+		z-index: 2;
+		display: grid;
+		grid-template-columns: auto 1fr;
+
+		border-radius: 10px;
+		outline-color: red;
+		outline-style: solid;
+
+	
+		position: fixed;
+		top: 50%;
+		left: 50%;
+
+		transform: translate(-50%, -50%);
+
+		background-color: lightblue;
+		width:  600px;
+		height: 300px;
+	}
+
+	.centerCard ul{
+		margin-left: 40px;
+	}
+
+	.centerCard li{
+		margin: 10px;
+	}
+
+	#selfPortrait{
+		margin: 10px;
+	}
+
+
+}
+
+

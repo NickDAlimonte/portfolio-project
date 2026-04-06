@@ -1,26 +1,2 @@
-
-<div class = "centerCard">
-	<img id="selfPortrait"src="./placeholder-me.png" alt="Image of myself">
-
-	<ul>
-		<li>Github Link Goes Here...</li>
-		<li>Project page link goes here...</li>
-		<li>More project links<br /></li>
-		<li>More<br /></li>
-
-
-	</ul>
-
-	<p>Testing</p>
-
-
-</div>
-
-
 <app-navbar></app-navbar>
-
-<app-left-project></app-left-project>
-
-<app-right-project></app-right-project>
-
 <router-outlet />

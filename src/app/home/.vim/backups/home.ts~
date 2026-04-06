@@ -1,0 +1,17 @@
+import { Component, signal } from '@angular/core';
+import { RouterOutlet } from '@angular/router';
+import {LeftProject} from '../left-project/left-project';
+import { RightProject } from '../right-project/right-project';
+import { BottomLeft } from '../bottom-left/bottom-left';
+import { BottomRight } from '../bottom-right/bottom-right';
+import { Navbar } from '../navbar/navbar';
+
+@Component({
+  selector: 'app-home',
+  imports: [RouterOutlet, RightProject, Navbar, BottomLeft, BottomRight, LeftProject],
+  templateUrl: './home.html',
+  styleUrls: ['../../reset.css','./home.css']
+})
+export class Home {
+
+}

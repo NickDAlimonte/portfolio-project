@@ -1,3 +1,4 @@
-p{
-	color: pink;
+:host{
+	background-image: url('/untitled.png');
+	background-color: blue;
 }

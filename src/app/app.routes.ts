@@ -1,5 +1,33 @@
 import { Routes } from '@angular/router';
+import {App} from './app';
+import {Rawcanada} from './rawcanada/rawcanada';
+import {Home} from './home/home';
+import {WarcraftAddon} from './warcraft-addon/warcraft-addon';
+import {DeploymentServer} from './deployment-server/deployment-server';
+import {AuthenticationServer} from './authentication-server/authentication-server';
+
+export const routes: Routes = [
+	{
+		path: '',
+		component: Home
+	},
+
+	{
+		path: 'rawcanada',
+		component: Rawcanada
+	},
+	{
+		path: 'addon',
+		component: WarcraftAddon
+	},
+	{
+		path: 'deployment-server',
+		component: DeploymentServer
+	},
+	{
+		path: 'authentication-server',
+		component: AuthenticationServer
+	}
 
 
-
-export const routes: Routes = [];
+];
