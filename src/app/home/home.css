@@ -1,69 +1,89 @@
+h1{
+	font-size: 24px;
+	font-weight: bold;
+}
 
+.centerCard ul:first-of-type{
+	place-self: center;
+}
 
 
 @media (max-width: 819px){
-
 	body{
 		width: 100vw;
 		height: 100vh;
-
+		background-image: url('/deploymentServer.png');
+		background-position: center;
 	}
 
+
+
 	.centerCard{
+		display: grid;
+		grid-template-columns: auto 1fr;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		place-self: center;
 		align-self: center;
 		justify-self: center;
-		background-color: red;
-		width: 80%;
+		background-color: rgb(130, 167, 231);
+		width: 95%;
 		height: 300px;
 		border-radius: 1em;
 	}
 
-	#selfPortrait{
-		margin: 20px;
+	.centerCard li{
+		margin: 10px;
 	}
 
 
-
-
-
-}
-
-
-
-@media (min-width: 820px){
-
+	#selfPortrait{
+		width: 120px;
+		margin: 10px;
+	}
 
 	app-left-project{
+		display: none;
+	}
+	app-right-project{
+		display: none;
+	}
+	app-bottom-left{
+		display: none;
+	}
+	app-bottom-right{
+		display: none;
+	}
+}
+
+@media (min-width: 820px){
+	app-left-project{
 		z-index: 1;
-		background-color: red;
 		position: fixed;
 		left: 0;
 		top: 0;
 		width: 50vw;
 		height: 50%;
-		color: white;
+		color: grey;
 		background-size: cover;
 	}
 	app-right-project{
 
-		border-left: 8px solid red;
+		border-left: 8px solid grey;
 		z-index: 1;
 		width: 50%;
 		position: fixed;
 		right: 0;
 		top: 0;
 		height: 50%;
-		color: white;
 		background-size: cover;
 	}
-
-
 	app-bottom-right{
 
-		border-left: 8px solid red;
+		border-left: 8px solid grey;
 		width: 50%;
-		background-color: green;
 		position: fixed;
 		right: 0;
 		bottom: 0;
@@ -72,11 +92,9 @@
 		color: white;
 		background-size: cover;
 	}
-
-
 	app-bottom-left{
 
-		background-color: green;
+		border-right: grey;
 		width: 50%;
 		position: fixed;
 		left: 0;
@@ -86,15 +104,13 @@
 		color: white;
 		background-size: cover;
 	}
-
-
 	.centerCard{
 		z-index: 2;
 		display: grid;
-		grid-template-columns: auto 1fr;
+		grid-template-columns: auto 1fr ;
 
 		border-radius: 10px;
-		outline-color: red;
+		outline-color: grey;
 		outline-style: solid;
 
 	
@@ -104,7 +120,7 @@
 
 		transform: translate(-50%, -50%);
 
-		background-color: lightblue;
+		background-color: rgb(130, 167, 231);
 		width:  600px;
 		height: 300px;
 	}
@@ -119,9 +135,8 @@
 
 	#selfPortrait{
 		margin: 10px;
+		width: 120px;
 	}
-
-
 }
 
 
